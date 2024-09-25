@@ -1,6 +1,6 @@
-﻿using System;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Class1
+namespace Document_Management_Backend.Model
 {
     public class Documents
     {
