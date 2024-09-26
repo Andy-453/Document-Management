@@ -1,7 +1,7 @@
-﻿using Document_Management_Backend.Model;
+﻿using DocumentManagementBackend.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Document_Management_Backend.Context
+namespace DocumentManagementBackend.Context
 {
     public class DMDbContext : DbContext
     {

@@ -1,4 +1,4 @@
-namespace Document_Management_Backend
+namespace DocumentManagementBackend
 {
     public class WeatherForecast
     {

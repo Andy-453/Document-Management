@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Document_Management_Backend.Model
+namespace DocumentManagementBackend.Model
 {
     public class Persons
     {
