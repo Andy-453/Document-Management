@@ -4,14 +4,16 @@ namespace DocumentManagementBackend.Model
 {
     public class Documents
     {
-        public int Document_Id { get; set; }
+        [Key]
+        public required int Id { get; set; }
 
-        public required int Documents_Protected { get; set; }
+        public required int DocumentsProtected { get; set; }
 
-        public required int Document_shared { get; set; }
+        public required int DocumentShared { get; set; }
 
         public required string Address { get; set; }
 
-        public required string Type_Document { get; set; }
+        public required string TypeDocument { get; set; }
+
     }
 }

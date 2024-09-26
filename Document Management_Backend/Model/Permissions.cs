@@ -4,7 +4,8 @@ namespace DocumentManagementBackend.Model
 {
     public class Permissions
     {
-        public int Permissions_Id { get; set; }
+        [Key]
+        public required int Id { get; set; }
 
         public required string permissions { get; set; }
     }

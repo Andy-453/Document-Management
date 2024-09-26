@@ -11,5 +11,7 @@ namespace DocumentManagementBackend.Model
 
         public required string  Password { get; set; }
 
+        public virtual required UserType UserType { get; set; }
+
     }
 }

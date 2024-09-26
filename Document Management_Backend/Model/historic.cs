@@ -2,19 +2,20 @@
 
 namespace DocumentManagementBackend.Model
 {
-    public class historic
+    public class Historic
     {
-        public int Historic_Id { get; set; }
+        [Key]
+        public required int Id { get; set; }
 
-        public required string Date_Created { get; set; }
+        public required string DateCreated { get; set; }
 
-        public required string user_modification { get; set; }
+        public required string UserModification { get; set; }
 
-        public required string date_modification { get; set; }
+        public required string DateModification { get; set; }
 
         public required string Action { get; set; }
 
-        public required string Referencia_Id { get; set; }
+        public required string ReferenciaId { get; set; }
 
     }
 }

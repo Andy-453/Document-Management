@@ -2,10 +2,10 @@
 
 namespace DocumentManagementBackend.Model
 {
-    public class Documents_has_history
+    public class DocumentsHasHistory
     {
-        public int Documents_Document_Id { get; set; }
+        public virtual required Documents Documents { get; set; }
 
-        public int historic_Historic_Id { get; set; }
+        public virtual required Historic Historic { get; set; } 
     }
 }

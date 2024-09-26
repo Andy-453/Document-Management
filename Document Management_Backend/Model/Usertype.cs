@@ -4,9 +4,8 @@ namespace DocumentManagementBackend.Model
 {
     public class UserType
     {
-
+        [Key]
         public int Id { get; set; }
-        public required string Name { get; set; }
-        //public required User Users { get; set; }
+        public int UserTypes { get; set; }
     }
 }

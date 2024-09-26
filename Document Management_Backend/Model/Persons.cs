@@ -4,26 +4,27 @@ namespace DocumentManagementBackend.Model
 {
     public class Persons
     {
-        public int Persons_Id { get; set; }
+        [Key]
+        public int Id { get; set; }
 
         public required string Name { get; set; }
 
-        public required string Date_Birth { get; set; }
+        public required string DateBirth { get; set; }
 
         public required string Email { get; set; }
 
         public required int Phone { get; set; }
 
-        public required string Date_registration { get; set; }
+        public required string DateRegistration { get; set; }
 
-        public required string Profile_Picture { get; set; }
+        public required string ProfilePicture { get; set; }
 
-        public required string Account_Status { get; set; }
+        public required string AccountStatus { get; set; }
 
-        public required string Last_Login { get; set; }
+        public required string LastLogin { get; set; }
 
-        public required string Token_Recovery { get; set; }
+        public required string TokenRecovery { get; set; }
 
-        public int Users_Usertype_Id { get; set; }
+        public virtual required User User { get; set; }
     }
 }
