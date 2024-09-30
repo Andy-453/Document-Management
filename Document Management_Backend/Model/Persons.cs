@@ -26,5 +26,6 @@ namespace DocumentManagementBackend.Model
         public required string TokenRecovery { get; set; }
 
         public virtual required User User { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }
