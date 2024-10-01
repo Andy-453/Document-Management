@@ -15,5 +15,7 @@ namespace DocumentManagementBackend.Model
 
         public required string TypeDocument { get; set; }
 
+        public bool IsDeleted { get; set; } = false;
     }
 }
+ 
