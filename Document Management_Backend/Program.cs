@@ -13,6 +13,9 @@ builder.Services.AddDbContext<DMDbContext>(options => options.UseSqlServer(conSt
 builder.Services.AddScoped<IPersonsRepository, PersonsRepository>();
 builder.Services.AddScoped<IPersonsService, PersonsService>();
 
+builder.Services.AddScoped<IDocumentsRepository, DocumentsRepository>();
+builder.Services.AddScoped<IDocumentsService, DocumentsService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
