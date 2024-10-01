@@ -5,7 +5,7 @@ namespace Document_Management_Backend.Service
 {
     public class DocumentsService : IDocumentsService
     {
-        private readonly IDocumentsRepository _DocumentsRepository;
+        private readonly IDocumentsRepository _documentsRepository;
 
         public DocumentsService(IDocumentsRepository DocumentsRepository)
         {
