@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Document_Management_Backend.Migrations
+namespace DocumentManagementBackend.Migrations
 {
     [DbContext(typeof(DMDbContext))]
     partial class DMDbContextModelSnapshot : ModelSnapshot

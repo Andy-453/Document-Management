@@ -1,6 +1,6 @@
 ﻿using DocumentManagementBackend.Model;
 
-namespace Document_Management_Backend.Repository
+namespace DocumentManagementBackend.Repository
 {
     public interface IPersonsRepository
     {

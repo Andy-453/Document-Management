@@ -1,8 +1,8 @@
-﻿using Document_Management_Backend.Service;
+﻿using DocumentManagementBackend.Service;
 using DocumentManagementBackend.Model;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Document_Management_Backend.Controllers
+namespace DocumentManagementBackend.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

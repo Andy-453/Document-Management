@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Document_Management_Backend.Migrations
+namespace DocumentManagementBackend.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration

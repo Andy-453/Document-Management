@@ -1,5 +1,5 @@
-using Document_Management_Backend.Repository;
-using Document_Management_Backend.Service;
+using DocumentManagementBackend.Repository;
+using DocumentManagementBackend.Service;
 using DocumentManagementBackend.Context;
 using Microsoft.EntityFrameworkCore;
 

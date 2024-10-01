@@ -2,7 +2,7 @@
 using DocumentManagementBackend.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Document_Management_Backend.Repository
+namespace DocumentManagementBackend.Repository
 {
     public class DocumentsRepository : IDocumentsRepository
     {

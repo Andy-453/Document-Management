@@ -1,7 +1,7 @@
-﻿using Document_Management_Backend.Repository;
+﻿using DocumentManagementBackend.Repository;
 using DocumentManagementBackend.Model;
 
-namespace Document_Management_Backend.Service
+namespace DocumentManagementBackend.Service
 {
     public class PersonsService : IPersonsService
     {
