@@ -41,9 +41,10 @@ namespace DocumentManagementBackend.Repository
             throw new NotImplementedException();
         }
 
-        public Task CreateDocumentsAsync(Documents documents)
+        public async Task CreateDocumentsAsync(Documents documents)
         {
-            throw new NotImplementedException();
+            await _context.Documents.AddAsync(documents);
+            await _context.SaveChangesAsync();  
         }
     }
 }
