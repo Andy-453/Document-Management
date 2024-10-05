@@ -15,13 +15,13 @@ namespace DocumentManagementBackend.Model
 
         public required int Phone { get; set; }
 
-        public required string DateRegistration { get; set; }
+        public required DateTime DateRegistration { get; set; }
 
         public required string ProfilePicture { get; set; }
 
-        public required string AccountStatus { get; set; }
+        public required bool AccountStatus { get; set; }
 
-        public required string LastLogin { get; set; }
+        public required DateTime LastLogin { get; set; }
 
         public required string TokenRecovery { get; set; }
 
